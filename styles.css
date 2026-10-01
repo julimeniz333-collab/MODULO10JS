@@ -1,0 +1,237 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #f4f7f8;
+
+    color: #333;
+
+    line-height: 1.6;
+
+}
+
+
+
+header {
+
+    background-color: #9ddfe6;
+
+    padding: 30px 20px;
+
+    text-align: center;
+
+}
+
+
+.contenedor-header {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+}
+
+
+header h1 {
+
+    font-size: 38px;
+
+    margin-bottom: 5px;
+
+}
+
+
+header p {
+
+    font-size: 17px;
+
+}
+
+
+main {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 40px 20px;
+
+}
+
+
+.presentacion {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+
+}
+
+
+.presentacion h2 {
+
+    font-size: 30px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.presentacion p {
+
+    color: #666;
+
+}
+
+
+
+.directorio h2 {
+
+    text-align: center;
+
+    margin-bottom: 25px;
+
+}
+
+
+.estado {
+
+    text-align: center;
+
+    font-size: 18px;
+
+    margin: 30px;
+
+    color: #555;
+
+}
+
+
+.contenedor-asociaciones {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 25px;
+
+}
+
+
+
+.tarjeta-asociacion {
+
+    background-color: white;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.10);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+
+}
+
+
+.tarjeta-asociacion:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 8px 18px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.tarjeta-asociacion h3 {
+
+    color: #167782;
+
+    margin-bottom: 15px;
+
+}
+
+
+.tarjeta-asociacion p {
+
+    margin-bottom: 10px;
+
+}
+
+
+.boton-colaborar {
+
+    width: 100%;
+
+    margin-top: 15px;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background-color: #167782;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: background-color 0.2s;
+
+}
+
+
+.boton-colaborar:hover {
+
+    background-color: #105c64;
+
+}
+
+
+footer {
+
+    margin-top: 50px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    background-color: #222;
+
+    color: white;
+
+}
+
+
+@media (max-width: 600px) {
+
+    header h1 {
+
+        font-size: 30px;
+
+    }
+
+
+    main {
+
+        padding: 25px 15px;
+
+    }
+
+}
