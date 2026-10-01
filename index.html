@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>FEBACIP - Asociaciones Civiles</title>
+
+
+    <link
+        rel="stylesheet"
+        href="./css/styles.css"
+    >
+
+   
+    <script
+        src="https://cdn.jsdelivr.net/npm/sweetalert2@11">
+    </script>
+
+    
+    <script
+        src="./js/main.js"
+        defer>
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <div class="contenedor-header">
+
+            <h1>FEBACIP</h1>
+
+            <p>
+                Federación Bonaerense de Asociaciones Civiles
+                de Interés Público
+            </p>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="presentacion">
+
+            <h2>Directorio de Asociaciones Civiles</h2>
+
+            <p>
+                Conocé las organizaciones que forman parte
+                de nuestra comunidad.
+            </p>
+
+        </section>
+
+
+        <section class="directorio">
+
+            <h2>Asociaciones</h2>
+
+            <!-- MENSAJE DE CARGA -->
+            <p id="estado" class="estado">
+                Cargando asociaciones...
+            </p>
+
+        
+            <div
+                id="contenedor-asociaciones"
+                class="contenedor-asociaciones">
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            FEBACIP - Federación Bonaerense de Asociaciones Civiles
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
